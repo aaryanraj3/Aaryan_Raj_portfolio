@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="favicon-32x32.png" type="image/png">
+    <link rel="icon" href="favicon-16x16.png" type="image/png">
+    <script src="https://kit.fontawesome.com/f6f6dc9eec.js" crossorigin="anonymous"></script>
+    <title>Aaryan Raj Portfolio</title>
+</head>
+
+<body>
+    <!-- Code For NavBar -->
+    <div id="navbar">
+        <nav class="navbar-container container1">
+            <a href="/" class="home-link">
+                <div class="navbar-logo"><img src="picofme.png" alt="profile" class="dp"></div>
+                Aaryan Raj
+            </a>
+            <button1 type="button" id="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu"
+                aria-expanded="false">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button1>
+            <div id="navbar-menu" aria-labelledby="navbar-toggle">
+                <ul class="navbar-links">
+                    <li class="navbar-item"><a class="navbar-link active" href="#home">Home</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="#about">About</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="#projects">Projects</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <!-- Code For Main Section -->
+    <div class="main" id="home">
+        <div class="intro" style="width:100%;">
+            <h4>HELLO!&#128075<br>
+                <h1>I'm</h1>
+                <span class="imp">Aaryan Raj</span>
+                <h1>and I am a passionate</h1>
+                <span id="element"></span>
+            </h4>
+            <div class="download">
+                <a href="./CV_Aaryan_Raj.pdf" filename="AAryan tah" target="_blank">
+                    <button style="margin-top: 30%;">View CV</button></a>
+
+                &nbsp &nbsp <a href="http://github.com/aaryanraj3" target="_blank"><button>My Profile</button></a>
+            </div>
+        </div>
+        <div class="img_svg">
+            <img src="Code typing-amico.svg" alt="image" style="width:100%;">
+
+        </div>
+
+    </div>
+    <hr>
+
+
+    <!-- Code For About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="profile.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>"Greetings! I'm Aaryan Raj, a dedicated B.Tech student majoring in Computer Science and
+                        Engineering at Mahatma Gandhi Central University. My primary passions revolve around the realms
+                        of web development and design, where I find immense joy in crafting user-friendly digital
+                        experiences. Alongside this, I'm on a journey to master C++ and its diverse applications in
+                        software development.Beyond my technical pursuits, I indulge in two unique hobbies. Firstly, I
+                        find great fulfillment in teaching, particularly guiding fellow students in their educational
+                        endeavors. Secondly, I have a knack for creating entertaining and relatable memes, adding a
+                        sprinkle of humor to daily life.Join me in exploring the ever-evolving tech world, and let's
+                        make meaningful connections while sharing knowledge and laughter!"</p>
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                        <div class="tab-links" onclick="opentab('education')">Education</div>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-End Web Development</span><br>HTML5, CSS3, JavaScript</li>
+                            <li><span>Programming Language</span><br>C</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Matriculation</span><br>Arpa International School <br>Grade:93%</li>
+                            <li><span>Intermediate</span><br>Modern Public School <br>Grade:90%</li>
+                            <li><span>B.tech(CSE)</span><br>Mahatma Gandhi Central University <br>Cgpa:8.8</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <hr>
+
+
+    </div>
+    <!-- Code For Projects Section -->
+    <div id="projects">
+        <div class="container1">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="projects-list">
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>Portfolio Website</h2>
+                    <p>This is the exact same website which you are currently viewing. Made by using HTML, CSS and JS.
+                    </p>
+                    <a href="https://aaryanraj3.github.io/portfolio_website" target="_blank">View Project</a>
+                    <a href="https://github.com/aaryanraj3/portfolio_website" target="_blank">View Code</a>
+                </div>
+                <div>
+                    <i class="fas fa-thermometer-full"></i>
+                    <h2>Temperature Converter</h2>
+                    <p>This is a simple temperature converter. It includes inter conversion between kelvin, celcius and
+                        fahreinheit. Made by using HTML, CSS and JS. </p>
+                    <a href="https://aaryanraj3.github.io/temp_converter/" target="_blank">View Project</a>
+                    <a href="https://github.com/aaryanraj3/temp_converter" target="_blank">View Code</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <!-- Code For Contact Section -->
+    <div id="contact">
+        <div class="container2">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>aaryanraj7273@gmail.com</p>
+
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/aaryan-raj-482484258" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/aaryanraj3" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://instagram.com/aaryan.raj3?igshid=NGVhN2U2NjQ0Yg==" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/Aaryan_raj3?t=JzzvqHVGnk5Znc8aWOkmGw&s=09" target="_blank"><i
+                                class="fab fa-twitter-square"></i></a>
+                    </div>
+
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Enter Your Name..." required>
+                        <input type="email" name="email" placeholder="Your Email..." required>
+                        <textarea name="message" rows="6" placeholder="Your Message..."></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+        </div>
+        <!-- Code For Footer -->
+        <footer>
+            <p>Developed with ❤️ by Aaryan Raj</p>
+        </footer>
+
+        <!--Code to make Animation of text-->
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js">
+        </script>
+        <script>
+            var typed = new Typed('#element', {
+                strings: ['Web Developer', 'Programmer', 'Web Designer.'],
+                typeSpeed: 50,
+            });
+        </script>
+        <!--Code to attach External JS-->
+        <script src="script.js"></script>
+</body>
+
+</html>
